@@ -1,0 +1,120 @@
+body {
+    background-color: #1c0e3e;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 900px;
+    background-image: url("bbb.png");
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    position: relative;
+    display: flex;
+    top: 80px;
+    color: #2b1d63fc;
+    font-size: 40px;
+    margin: 0 auto;
+    background-color: #ca709c3d;
+    justify-content: center;
+}
+
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: #fdfdfd73;
+    margin: 0 auto;
+    top: 150px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(44, 33, 80);
+    font-weight: 700;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(19, 7, 71);
+}
+
+#result {
+    height: 120px;
+    background-color: #d39ccbb5;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0; 
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty {
+    background-color: #e1bfdda1;;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.operator:active, .number:active {
+    font-size: 36px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #a0305c8f;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: rgb(164 98 166 / 65%);
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: rgb(127 38 90 / 43%);
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(218 119 156 / 56%);
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: rgb(210 155 202 / 71%);
+}
+
+#empty {
+    background-color: #eac9e500;
+}
